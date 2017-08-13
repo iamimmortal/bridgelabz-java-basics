@@ -13,15 +13,18 @@ import java.lang.NumberFormatException;
 public class LeapYear 
 {
 
-    public static void main(String[] args) 
-    {   /*store year as input given by user*/
+        /*store year as input given by user*/
         int mInputYear;
+
+    public static void main(String[] args) 
+    {   
+
         //scanner class object
         Scanner in=new Scanner(System.in);
         //exception handling number format
         try
         {
-           System.out.println("Enter a year");
+            System.out.println("Enter a year");
             //taking input
             mInputYear=in.nextInt();
             //condition for leap year

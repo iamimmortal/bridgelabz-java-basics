@@ -1,29 +1,36 @@
+/****************************************
+ *Program:Repeated number between 1 to 100*
+ *Author: Dharmendra mourya*
+ *Version:1.0*
+ *Date:10/08/2017
+*****************************************/
+
 package com.profound.util;
 
 import java.util.Scanner;
 
 public class RepeatedNumber 
-{
+{  
+    //loop control variable
+     static int i,j;
 
     public static void main(String[] args) 
     {
-        int i,j;
+
         int array[]=new int[10];
         Scanner in=new Scanner(System.in);
-        for(i=0;i<=9;i++)
+        for(i=0;i<=99;i++)
         {
             array[i]=in.nextInt();
             
         }
-        for(i=1;i<=10;i++)
+        for(i=1;i<=100;i++)
         { int c=0;
-            for(j=0;j<=9;j++)
+            for(j=0;j<=99;j++)
             {
                 if(i==array[j])
                 {
-                 
                    c++;
-                    
                 }
             }
             if(c>1)
