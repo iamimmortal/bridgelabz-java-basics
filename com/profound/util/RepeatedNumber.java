@@ -1,4 +1,4 @@
-package com.profound;
+package com.profound.util;
 
 import java.util.Scanner;
 

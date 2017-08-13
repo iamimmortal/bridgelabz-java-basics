@@ -4,7 +4,7 @@
  *Version:1.0
  *Date:10/08/2017
 *****************************************/
-package com.profound;
+package com.profound.util;
 
 import java.lang.Math;
 import java.util.Scanner;

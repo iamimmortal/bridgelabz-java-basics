@@ -1,4 +1,4 @@
-package com.profound;
+package com.profound.util;
 
 public class NoSuchMethodException 
 {
