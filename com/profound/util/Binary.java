@@ -5,19 +5,18 @@
    Date:10/08/17
   ******************************************/
 package com.profound.util;
-
+ /*importing scanner class for taking userinput*/
 import java.util.Scanner;
 
 public class Binary 
-{
-
+{ 
+    static int decimalNumber;
+    //temp count lenght of division on  number
+    int temp=0;
+    //for incrment of array
+    int i=0;
     public static void main(String[] args) 
     {
-        int decimalNumber;
-        //temp count lenght of division on number
-        int temp=0;
-        //For incrment of array
-        int i=0;
         Scanner in=new Scanner(System.in);
         System.out.println("Enter decimal number:");
         decimalNumber=in.nextInt();

@@ -1,0 +1,23 @@
+/****************************************
+ *Program:prime factor*
+ *Author: Dharmendra mourya*
+ *Version:1.0*
+ *Date:10/08/2017
+*****************************************/
+package com.profound.util;
+
+import java.util.Scanner;
+
+public class  PrimeFactor 
+{
+    int p
+    //operetion
+    for(i=2;i*i<=primeNumber;i++)
+   { 
+     if(primeNumber%i==0)
+      {
+       
+      }
+   }
+
+

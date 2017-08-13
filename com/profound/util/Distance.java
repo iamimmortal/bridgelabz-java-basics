@@ -6,21 +6,25 @@
 
 package com.profound.util;
 
+//inclusion of math function
 import java.lang.Math;
 
 public class  Distance
-{
- public static void main(String [] args)
- {
-  /*variable for storing two inputs from user*/
-     int x,y;
+{ 
+
+    /*variable for storing two inputs from user*/
+    int x,y;
     //variable for storing user input
-     double distance;
-     //user command line input
-     x=Integer.parseInt(args[0]);
-     y=Integer.parseInt(args[0]);
-    //operation
-    distance=Math.sqrt(x*x+y*y);
-   System.out.println("The distance is:"+distance);
+    double distance;
+
+  public static void main(String [] args)
+  {
+      //user command line input
+      x=Integer.parseInt(args[0]);
+      y=Integer.parseInt(args[0]);
+      //operation
+      distance=Math.sqrt(x*x+y*y);
+      System.out.println("The distance is:"+distance);
   }
+
 }

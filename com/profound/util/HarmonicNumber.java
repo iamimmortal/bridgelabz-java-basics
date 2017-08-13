@@ -12,19 +12,22 @@ import java.util.Scanner;
 
 public class HarmonicNumber 
 {
+      //user input 
+      static  int harmonicNumber,i;
+      static  double harmonicValue=0.0;
 
     public static void main(String[] args) 
-    {   //user input 
-        int harmonicNumber,i;
-        double harmonicValue=0.0;
+    {   
+
         Scanner in=new Scanner(System.in);
         harmonicNumber=in.nextInt();
         for(i=1;i<=harmonicNumber;i++)
         {
-            harmonicValue=harmonicValue+(1.0/i);
-            //System.out.println(1.0/i);
+             harmonicValue=harmonicValue+(1.0/i);
+             //System.out.println(1.0/i);
            
         }
+        //displaying result
         System.out.println("Harmonic value is:"+harmonicValue);
     }
 }
