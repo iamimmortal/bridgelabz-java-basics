@@ -9,22 +9,30 @@
      
 package com.profound.util;
 
+/*Math class for inclusion of math function*/
 import java.lang.Math;
 import java.util.Scanner;
 
 public class SecondLargestSmallestElement 
 {
-
-    public static void main(String[] args) 
-    {
-        int i,secondLargest,largest,secondSmallest,smallest,arraySize;
-        //Scannner of array input
+        //Loop control variable
+        static int i;
+         //Variable x stores the position of largest as well as smalleat number
+         static int x;
+        //Variable stores largest and second largest number
+        static int secondLargest,largest,secondSmallest,smallest;
+        //Variable for storing array size
+        static int arraySiz;
+        //for Scanning array input
         Scanner in=new Scanner(System.in);
         System.out.println("Enter size of array:");
         arraySize=in.nextInt();
         //create array of user defined size
-        int array[]=new int[arraySize];
-        //taking values in array
+        int array[];
+    public static void main(String[] args) 
+    {
+        //Initialization of array
+         array[]=new int[arraySize];
         for(i=0;i<arraySize;i++)
         {
             System.out.println("Enter value for position:"+(i+1));
@@ -33,8 +41,8 @@ public class SecondLargestSmallestElement
  /****************************************
     Second largest element code starts here
   ******************************************/
-        largest=array[0];
-        int x=0;
+          largest=array[0];
+          x=0;
         //this for loop is for finding largest value
         for(i=1;i<arraySize;i++)
         {
