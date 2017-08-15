@@ -23,14 +23,14 @@ public class SecondLargestSmallestElement
         static int secondLargest,largest,secondSmallest,smallest;
         //Variable for storing array size
         static int arraySiz;
-        //for Scanning array input
+        //create array of user defined size
+        static int array[];
+    public static void main(String[] args) 
+    {
+         //for Scanning array input
         Scanner in=new Scanner(System.in);
         System.out.println("Enter size of array:");
         arraySize=in.nextInt();
-        //create array of user defined size
-        int array[];
-    public static void main(String[] args) 
-    {
         //Initialization of array
          array[]=new int[arraySize];
         for(i=0;i<arraySize;i++)
