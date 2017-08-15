@@ -11,15 +11,17 @@ import java.util.Scanner;
 
 public class SqrtNewtonMethod 
 {
-
+      //variable declarations to take number from user
+      static int numberInput;
+      //temp variables
+      static double estimate;
+      //Variable stores relative error value
+      static double epsilon;
     public static void main(String[] args) 
     {
-        //variable declarations to take number from user
-        int numberInput;
-        //temp variables
-        double estimate;
+       
         //relative error tolerence
-        double epsilon=1e-15;
+        epsilon=1e-15;
         Scanner in=new Scanner(System.in);
         System.out.println("Enter a number:");
         numberInput=in.nextInt();
