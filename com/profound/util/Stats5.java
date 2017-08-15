@@ -1,3 +1,8 @@
+/**********************************
+Program: Statistic of 5 random variable
+Author: Dharmendra mourya
+Date:12/08/17
+************************************/
 package com.profound;
 
 //math class for random number
