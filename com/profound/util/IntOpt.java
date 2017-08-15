@@ -10,14 +10,14 @@ import java.util.Scanner;
 
 public class IntOpt
 {
+     /*variable for storing three inputs from user*/
+     static int a,b,c;
+    //variable for user choice
+     static int choice;
+    //variable for storing result
+     static double result;
  public static void main(String [] args)
  {
-  /*variable for storing three inputs from user*/
-     int a,b,c;
-    //variable for user choice
-     int choice;
-     //variable for storing result
-     double result;
      //making object of scanner class
      Scanner in=new Scanner(System.in);
      //initaializing variables
