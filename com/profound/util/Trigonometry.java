@@ -11,13 +11,12 @@ import java.util.Scanner;
 
 public class Trigonometry 
 {
-
+       //variable to store degree as user input
+       static double degree;
+       //variable to store radians
+       static double radian;
     public static void main(String[] args) 
     {
-        //variable to store degree as user input
-        double degree;
-        //variable to store radians
-        double radian;
         //scan input
         Scanner in=new Scanner(System.in);
         System.out.println("Enter degree:");
