@@ -1,17 +1,21 @@
+/**********************************
+Program: Temperature conversion
+Author: Dharmendra mourya
+Date:12/08/17
+************************************/
 package com.profound.util;
 
 import java.util.Scanner;
 
 public class TemperatureConversion 
-{
-
+{        //Variable to store user input as celciis or fareinheit
+         static double fareinheit,celcius;
+         //store result
+         static double result;
+         //user input as option
+         static int choice;
     public static void main(String[] args) 
     {
-        double fareinheit,celcius;
-        //store result
-        double result;
-        //user input as aoption
-        int choice;
         Scanner in=new Scanner(System.in);
         System.out.println("1:Fareinheit to Celcius");
         System.out.println("2: Celcius to Fareinheit");
